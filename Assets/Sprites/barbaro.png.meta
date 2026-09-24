@@ -1,0 +1,1146 @@
+fileFormatVersion: 2
+guid: 3a3f150f3a7011d4bb1348fb8b033d62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5776051026702532176
+    second: barbaro_0
+  - first:
+      213: 4243097609781998778
+    second: barbaro_1
+  - first:
+      213: 6209422921627557799
+    second: barbaro_2
+  - first:
+      213: 8175750627275584998
+    second: barbaro_3
+  - first:
+      213: 9010177348581856686
+    second: barbaro_4
+  - first:
+      213: 9006766824214669656
+    second: barbaro_5
+  - first:
+      213: -8045441388211429223
+    second: barbaro_6
+  - first:
+      213: 1419636136308428966
+    second: barbaro_7
+  - first:
+      213: -4243873252049523887
+    second: barbaro_8
+  - first:
+      213: 7085443223549079086
+    second: barbaro_9
+  - first:
+      213: -4809892020603725148
+    second: barbaro_10
+  - first:
+      213: 2153672481702228811
+    second: barbaro_11
+  - first:
+      213: 6257888550098861241
+    second: barbaro_12
+  - first:
+      213: -5119612887529659982
+    second: barbaro_13
+  - first:
+      213: 3658093158210934785
+    second: barbaro_14
+  - first:
+      213: -9192624170192717459
+    second: barbaro_15
+  - first:
+      213: -1178457507878978446
+    second: barbaro_16
+  - first:
+      213: -2290144597123408529
+    second: barbaro_17
+  - first:
+      213: -5721975545712366793
+    second: barbaro_18
+  - first:
+      213: 9216565676111356651
+    second: barbaro_19
+  - first:
+      213: 2686967687463754008
+    second: barbaro_20
+  - first:
+      213: -1404316312247321978
+    second: barbaro_21
+  - first:
+      213: -2787495757910800019
+    second: barbaro_22
+  - first:
+      213: -3928099033317357506
+    second: barbaro_23
+  - first:
+      213: -9161405979280196357
+    second: barbaro_24
+  - first:
+      213: 3705684307624878319
+    second: barbaro_25
+  - first:
+      213: 2816271414960918506
+    second: barbaro_26
+  - first:
+      213: -7765997128889082320
+    second: barbaro_27
+  - first:
+      213: 318566475016557571
+    second: barbaro_28
+  - first:
+      213: 6846787492776141380
+    second: barbaro_29
+  - first:
+      213: 8100299872631991204
+    second: barbaro_30
+  - first:
+      213: 3761997154605563109
+    second: barbaro_31
+  - first:
+      213: 6357233702248568058
+    second: barbaro_32
+  - first:
+      213: 6094353520623961482
+    second: barbaro_33
+  - first:
+      213: -6946395897978997617
+    second: barbaro_34
+  - first:
+      213: 6261930165347651034
+    second: barbaro_35
+  - first:
+      213: 8682782717399297245
+    second: barbaro_36
+  - first:
+      213: -3634669808281181184
+    second: barbaro_37
+  - first:
+      213: 5722424297150021467
+    second: barbaro_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barbaro_0
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 7669
+        width: 156
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e72235ec7a82050800000000000000
+      internalID: 5776051026702532176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_1
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 7648
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab47d529bc282ea30800000000000000
+      internalID: 4243097609781998778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_2
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 7700
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af57cf8f3d4c2650800000000000000
+      internalID: 6209422921627557799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_3
+      rect:
+        serializedVersion: 2
+        x: 4886
+        y: 7644
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e530f6e0e9167170800000000000000
+      internalID: 8175750627275584998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_4
+      rect:
+        serializedVersion: 2
+        x: 4946
+        y: 7694
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea51e718f849a0d70800000000000000
+      internalID: 9010177348581856686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_5
+      rect:
+        serializedVersion: 2
+        x: 5052
+        y: 7675
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859a61ce4b67efc70800000000000000
+      internalID: 9006766824214669656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_6
+      rect:
+        serializedVersion: 2
+        x: 5098
+        y: 7644
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990ae6a1fa9d85090800000000000000
+      internalID: -8045441388211429223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_7
+      rect:
+        serializedVersion: 2
+        x: 5107
+        y: 7700
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0d8fe5b8f83b310800000000000000
+      internalID: 1419636136308428966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_8
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 7669
+        width: 156
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b6ec323cbba15c0800000000000000
+      internalID: -4243873252049523887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_9
+      rect:
+        serializedVersion: 2
+        x: 4777
+        y: 7680
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e67df421d845260800000000000000
+      internalID: 7085443223549079086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_10
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 7668
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaddefe0b4df3db0800000000000000
+      internalID: -4809892020603725148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_11
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 7680
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43356226b163ed10800000000000000
+      internalID: 2153672481702228811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_12
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 7668
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc70a80b7c78d650800000000000000
+      internalID: 6257888550098861241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_13
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 7680
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b16843243b73f8b0800000000000000
+      internalID: -5119612887529659982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_14
+      rect:
+        serializedVersion: 2
+        x: 4761
+        y: 7669
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1081372985824c230800000000000000
+      internalID: 3658093158210934785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_15
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 7666
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d693ef5950d3d6080800000000000000
+      internalID: -9192624170192717459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_16
+      rect:
+        serializedVersion: 2
+        x: 4988
+        y: 7663
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c3bfbe32745afe0800000000000000
+      internalID: -1178457507878978446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_17
+      rect:
+        serializedVersion: 2
+        x: 5197
+        y: 7666
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ddd246f95c730e0800000000000000
+      internalID: -2290144597123408529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_18
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 7669
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ba758be857790b0800000000000000
+      internalID: -5721975545712366793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_19
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 7661
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2eca5a6a1d7ef70800000000000000
+      internalID: 9216565676111356651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_20
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 7642
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819da3620e60a4520800000000000000
+      internalID: 2686967687463754008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_21
+      rect:
+        serializedVersion: 2
+        x: 5359
+        y: 7642
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a363021cdd28ce0800000000000000
+      internalID: -1404316312247321978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_22
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 7661
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6981d08063d059d0800000000000000
+      internalID: -2787495757910800019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_23
+      rect:
+        serializedVersion: 2
+        x: 4663
+        y: 7648
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38409cbdb69c79c0800000000000000
+      internalID: -3928099033317357506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_24
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 7632
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc3dd11dc52cd080800000000000000
+      internalID: -9161405979280196357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_25
+      rect:
+        serializedVersion: 2
+        x: 5237
+        y: 7632
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe068b58e3c3d6330800000000000000
+      internalID: 3705684307624878319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_26
+      rect:
+        serializedVersion: 2
+        x: 5302
+        y: 7648
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef05df3ee7651720800000000000000
+      internalID: 2816271414960918506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_27
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 7619
+        width: 54
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03edcddd1c2a93490800000000000000
+      internalID: -7765997128889082320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_28
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 7615
+        width: 87
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304d5bc6586cb6400800000000000000
+      internalID: 318566475016557571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_29
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 7616
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4426287e2fca40f50800000000000000
+      internalID: 6846787492776141380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_30
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 7638
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab2f5221db0a6070800000000000000
+      internalID: 8100299872631991204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_31
+      rect:
+        serializedVersion: 2
+        x: 5427
+        y: 7616
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec7b4eea7c453430800000000000000
+      internalID: 3761997154605563109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_32
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 7615
+        width: 87
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4daa0ce5e693850800000000000000
+      internalID: 6357233702248568058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_33
+      rect:
+        serializedVersion: 2
+        x: 5558
+        y: 7619
+        width: 54
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85417cdc3e739450800000000000000
+      internalID: 6094353520623961482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_34
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2921
+        width: 9206
+        height: 4698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f843bbffbb1799f90800000000000000
+      internalID: -6946395897978997617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_35
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 7595
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add89d9ee48d6e650800000000000000
+      internalID: 6261930165347651034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_36
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 7613
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc6c7cc0e07f7870800000000000000
+      internalID: 8682782717399297245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_37
+      rect:
+        serializedVersion: 2
+        x: 5468
+        y: 7613
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0042091111f0f8dc0800000000000000
+      internalID: -3634669808281181184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbaro_38
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 7595
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ff0bd54922a6f40800000000000000
+      internalID: 5722424297150021467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      barbaro_0: 5776051026702532176
+      barbaro_1: 4243097609781998778
+      barbaro_10: -4809892020603725148
+      barbaro_11: 2153672481702228811
+      barbaro_12: 6257888550098861241
+      barbaro_13: -5119612887529659982
+      barbaro_14: 3658093158210934785
+      barbaro_15: -9192624170192717459
+      barbaro_16: -1178457507878978446
+      barbaro_17: -2290144597123408529
+      barbaro_18: -5721975545712366793
+      barbaro_19: 9216565676111356651
+      barbaro_2: 6209422921627557799
+      barbaro_20: 2686967687463754008
+      barbaro_21: -1404316312247321978
+      barbaro_22: -2787495757910800019
+      barbaro_23: -3928099033317357506
+      barbaro_24: -9161405979280196357
+      barbaro_25: 3705684307624878319
+      barbaro_26: 2816271414960918506
+      barbaro_27: -7765997128889082320
+      barbaro_28: 318566475016557571
+      barbaro_29: 6846787492776141380
+      barbaro_3: 8175750627275584998
+      barbaro_30: 8100299872631991204
+      barbaro_31: 3761997154605563109
+      barbaro_32: 6357233702248568058
+      barbaro_33: 6094353520623961482
+      barbaro_34: -6946395897978997617
+      barbaro_35: 6261930165347651034
+      barbaro_36: 8682782717399297245
+      barbaro_37: -3634669808281181184
+      barbaro_38: 5722424297150021467
+      barbaro_4: 9010177348581856686
+      barbaro_5: 9006766824214669656
+      barbaro_6: -8045441388211429223
+      barbaro_7: 1419636136308428966
+      barbaro_8: -4243873252049523887
+      barbaro_9: 7085443223549079086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
