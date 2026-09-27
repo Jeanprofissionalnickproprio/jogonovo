@@ -7,7 +7,47 @@ public class GridManager : MonoBehaviour
     public int altura = 10;
     public float tamanhoCelula = 1f;
 
+    public Camera cameraAlvo;
+
+    public int extraColunas = 2; // colunas extras fora da câmera, em cada lado (esquerda/direita)
+    public int extraLinhas = 2;  // linhas extras fora da câmera, em cada lado (cima/baixo)
+
     readonly HashSet<Vector2Int> bloqueadas = new HashSet<Vector2Int>();
+
+    void Start()
+    {
+        CalcularTamanhoPelaCamera();
+        AlinharComCamera();
+    }
+
+    public void CalcularTamanhoPelaCamera()
+    {
+        Camera cam = cameraAlvo != null ? cameraAlvo : Camera.main;
+        if (cam == null || !cam.orthographic) return;
+
+        float alturaMundo = cam.orthographicSize * 2f;
+        float larguraMundo = alturaMundo * cam.aspect;
+
+        int colunasVisiveis = Mathf.CeilToInt(larguraMundo / tamanhoCelula);
+        int linhasVisiveis = Mathf.CeilToInt(alturaMundo / tamanhoCelula);
+
+        largura = colunasVisiveis + extraColunas * 2;
+        altura = linhasVisiveis + extraLinhas * 2;
+    }
+
+    public void AlinharComCamera()
+    {
+        Camera cam = cameraAlvo != null ? cameraAlvo : Camera.main;
+        if (cam == null) return;
+
+        Vector3 cantoInferiorEsquerdo = cam.ViewportToWorldPoint(new Vector3(0f, 0f, cam.nearClipPlane));
+        cantoInferiorEsquerdo.z = transform.position.z;
+
+        Vector3 offset = new Vector3(extraColunas * tamanhoCelula, extraLinhas * tamanhoCelula, 0f);
+        transform.position = cantoInferiorEsquerdo - offset;
+    }
+
+    public Vector2Int CelulaInicialCamera() => new Vector2Int(extraColunas, extraLinhas);
 
     public bool DentroDoGrid(Vector2Int c) =>
         c.x >= 0 && c.y >= 0 && c.x < largura && c.y < altura;
