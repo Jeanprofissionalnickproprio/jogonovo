@@ -12,7 +12,14 @@ public class GridManager : MonoBehaviour
     public int extraColunas = 2; // colunas extras fora da câmera, em cada lado (esquerda/direita)
     public int extraLinhas = 2;  // linhas extras fora da câmera, em cada lado (cima/baixo)
 
-    readonly HashSet<Vector2Int> bloqueadas = new HashSet<Vector2Int>();
+    public int passoColunas = 4; // quantas colunas a câmera anda quando o boneco sai pela esquerda/direita
+    public int passoLinhas = 4;  // quantas linhas a câmera anda quando o boneco sai por cima/baixo
+
+    int colunasVisiveis;
+    int linhasVisiveis;
+    Vector2Int origem; // coordenada global da célula local (0,0)
+
+    readonly HashSet<Vector2Int> bloqueadas = new HashSet<Vector2Int>(); // coordenadas globais
 
     void Start()
     {
@@ -28,8 +35,8 @@ public class GridManager : MonoBehaviour
         float alturaMundo = cam.orthographicSize * 2f;
         float larguraMundo = alturaMundo * cam.aspect;
 
-        int colunasVisiveis = Mathf.CeilToInt(larguraMundo / tamanhoCelula);
-        int linhasVisiveis = Mathf.CeilToInt(alturaMundo / tamanhoCelula);
+        colunasVisiveis = Mathf.CeilToInt(larguraMundo / tamanhoCelula);
+        linhasVisiveis = Mathf.CeilToInt(alturaMundo / tamanhoCelula);
 
         largura = colunasVisiveis + extraColunas * 2;
         altura = linhasVisiveis + extraLinhas * 2;
@@ -52,11 +59,40 @@ public class GridManager : MonoBehaviour
     public bool DentroDoGrid(Vector2Int c) =>
         c.x >= 0 && c.y >= 0 && c.x < largura && c.y < altura;
 
-    public bool Andavel(Vector2Int c) => DentroDoGrid(c) && !bloqueadas.Contains(c);
+    public bool Andavel(Vector2Int c) => DentroDoGrid(c) && !bloqueadas.Contains(c + origem);
 
-    public void Bloquear(Vector2Int c) => bloqueadas.Add(c);
+    public void Bloquear(Vector2Int c) => bloqueadas.Add(c + origem);
 
-    public void Desbloquear(Vector2Int c) => bloqueadas.Remove(c);
+    public void Desbloquear(Vector2Int c) => bloqueadas.Remove(c + origem);
+
+    // Se a célula saiu da área visível, diz quanto a câmera deve andar (o passo configurado, na direção da saída)
+    public Vector2Int DeslocamentoParaVoltarATela(Vector2Int c)
+    {
+        int passoX = Mathf.Clamp(passoColunas, 1, colunasVisiveis);
+        int passoY = Mathf.Clamp(passoLinhas, 1, linhasVisiveis);
+        int dx = 0, dy = 0;
+
+        if (c.x < extraColunas) dx = -passoX;
+        else if (c.x >= extraColunas + colunasVisiveis) dx = passoX;
+
+        if (c.y < extraLinhas) dy = -passoY;
+        else if (c.y >= extraLinhas + linhasVisiveis) dy = passoY;
+
+        return new Vector2Int(dx, dy);
+    }
+
+    // Move a câmera instantaneamente até a próxima tela e atualiza o grid junto
+    public void Deslocar(Vector2Int d)
+    {
+        Camera cam = cameraAlvo != null ? cameraAlvo : Camera.main;
+        if (cam == null) return;
+
+        Vector3 delta = new Vector3(d.x, d.y, 0f) * tamanhoCelula;
+
+        origem += d;
+        transform.position += delta;
+        cam.transform.position += delta;
+    }
 
     public Vector3 CelulaParaMundo(Vector2Int c)
     {

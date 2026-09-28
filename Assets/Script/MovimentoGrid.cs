@@ -1,10 +1,8 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class MovimentoGrid : MonoBehaviour
 {
-
     public GridManager grid;
 
     Vector2Int celula;
@@ -37,7 +35,16 @@ public class MovimentoGrid : MonoBehaviour
         if (!grid.Andavel(destino)) return;
 
         celula = destino;
-        transform.position = grid.CelulaParaMundo(destino);
+
+        // Se saiu da área visível, a câmera e o grid pulam juntos
+        Vector2Int salto = grid.DeslocamentoParaVoltarATela(celula);
+        if (salto != Vector2Int.zero)
+        {
+            grid.Deslocar(salto);
+            celula -= salto; // a origem mudou, então a coordenada local do boneco também
+        }
+
+        transform.position = grid.CelulaParaMundo(celula);
     }
 
     public void Up()    => TentarMover(Vector2Int.up);
